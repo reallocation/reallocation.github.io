@@ -879,14 +879,15 @@ textarea.form-control {
 }
 
 .fadeInOut {
+	font-weight: bold;
 	animation: fadeInOut 4s ease-out forwards;
 	display:inline-block;
 }
 
 @keyframes fadeInOut{
-	0%{opacity:0;}
-	25%{opacity:1;}
-	99%{opacity:1;}
-    100%{opacity:0}
+	0%{opacity:0;;transform: translateX(150px)}
+	20%{opacity:1;transform: translateX(0);}
+	99%{opacity:1;transform: translateX(0);}
+    100%{opacity:0;transform: translateX(0);}
 }
 /*# sourceMappingURL=style.min.css.map */
