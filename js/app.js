@@ -44,7 +44,7 @@ function postFunction(e) {
           e.target.querySelector("[id*='message-status']").innerHTML = "message sent!";
       })
       .catch(error => {
-          e.target.querySelector("[id*='message-status']").innerHTML = "error sending message!";
+          e.target.querySelector("[id*='message-status']").innerHTML = "error! please email us at info@reallocation.one instead";
       })
       .finally(() => {
           e.target.reset();
