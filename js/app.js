@@ -60,7 +60,7 @@ function postFunction(e) {
 document.getElementById('form-register').addEventListener("submit", postFunction);
 document.getElementById('form-contact').addEventListener("submit", postFunction);
 
-const useCases = ['regulatory geoblocking', 'GDPR compliance', 'Crypto / Financial Services KYC', 'Zero Trust Network Authentication (ZTNA)', 'Sneaker Bot defence', 'content localization', 'streaming media', 'streaming video'];
+const useCases = ['regulatory geoblocking', 'GDPR compliance', 'ad targeting', 'Crypto KYC', 'Financial Services KYC', 'Zero Trust Network Authentication (ZTNA)', 'Sneaker Bot defence', 'content localization', 'streaming media', 'streaming video'];
 var useCaseP = 0;
 
 document.getElementById('use-case').addEventListener('animationend', function (e) {
