@@ -36,7 +36,8 @@ function postFunction(e) {
   e.target.querySelector('.spinner-border').classList.remove('d-none');
 
 
-  fetch('https://script.google.com/macros/s/AKfycbxumQtbFluRFxhpp4GM370FrR__RvCcWIyJm4sgF6sI5emV2rppTy2fryenQIo2YwydTw/exec', {
+  fetch(
+    'https://script.google.com/macros/s/AKfycbxKXQS-K8TkATWjjp3xAmDh3bU1gvct2Bw_mE8k_UXEcBhDM2OHtsTn8ldT-pI9_vmnCw/exec', {
       method: 'POST',
       body: new FormData(e.target)
   })
